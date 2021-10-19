@@ -1,8 +1,8 @@
 {
-  "name": "xᴍᴀʀᴛʏ ᴍᴜꜱɪᴄ ʙᴏᴛ",
+  "name": "𝙷𝚢𝚙𝚎𝚛 𝙼𝚞𝚜𝚒𝚌",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/S780821/XMARTY_MUSIC",
+  "repository": "https://github.com/shubham-king/HYPER-MUSIC",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -14,6 +14,11 @@
       "required": true
     },
     "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_USERNAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": true,
       "value": ""
