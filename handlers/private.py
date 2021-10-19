@@ -11,25 +11,25 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**ʜᴇʏ, I'm {bn} 🎵
 
-ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ'ꜱ ᴠᴏɪᴄᴇ ᴄᴀʟʟ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [xᴍᴀʀᴛʏ ꜱᴀʟɪᴍ](https://t.me/Xmartperson).
+ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ'ꜱ ᴠᴏɪᴄᴇ ᴄᴀʟʟ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [𝙸𝚝𝚜 𝚖𝚞𝚜𝚒𝚌](https://t.me/ShubhamMusics).
 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ꜰʀᴇᴇʟʏ!**
+ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ꜰʀᴇᴇʟʏ!  \n  𝚁𝚞𝚗 𝚘𝚗 𝚘𝚠𝚗 𝚟𝚙𝚜 𝚜𝚎𝚛𝚟𝚎𝚛 𝚝𝚑𝚎 𝚏𝚊𝚜𝚝𝚎𝚜𝚝 𝚜𝚎𝚛𝚟𝚎𝚛!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 𝙎𝙊𝙐𝙍𝘾𝙀 𝘾𝙊𝘿𝙀 🛠", url="https://github.com/S780821/XMARTY_MUSIC")
+                        " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/dablu_robot?startgroup=new")
                   ],[
                     InlineKeyboardButton(
-                        "💬 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/XMARTY_Support"
+                        "💬 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/ShubhamMusics"
                     ),
                     InlineKeyboardButton(
-                        "✨𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 2✨", url="https://github.com/S780821/XMARTY_MUSIC_2"
+                        "👥 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Chatting_officials"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "𝙈𝘼𝙆𝙀 𝙐𝙍 𝙊𝙒𝙉 𝙄𝙁 𝙐 𝙒𝘼𝙉𝙏 𝘼𝙉𝙔 𝙃𝙀𝙇𝙋 𝙋𝙇𝙀𝘼𝙎𝙀 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙈𝙔 𝘽𝙊𝙎𝙎 ", url="https://t.me/XMARTPERSON"
+                        " 💎Source code ", url="https://github.com/shubham-king/HYPER-MUSIC"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**ᴀʀᴇ ʏʀʀ ᴊɪɴᴅᴀ ʜᴏᴏ ✅**""",
+      await message.reply_text("""**𝙷𝚎𝚕𝚕𝚘 𝚒 𝚊𝚖 𝚛𝚎𝚊𝚍𝚢!  𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚝𝚘 𝚜𝚎𝚛𝚟𝚎𝚛**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄⚡", url="https://github.com/S780821/XMARTY_MUSIC")
+                        "𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎", url="https://github.com/shubham-king/HYPER-MUSIC")
                 ]
             ]
         )
