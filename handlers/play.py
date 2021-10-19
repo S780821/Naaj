@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, ("**𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚓𝚘𝚒𝚗𝚎𝚍 𝚑𝚎𝚛𝚎 𝚊𝚗𝚍 𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚃𝚘 𝚜𝚎𝚛𝚟𝚎𝚛**")
+                        message.chat.id, **𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚓𝚘𝚒𝚗𝚎𝚍 𝚑𝚎𝚛𝚎 𝚊𝚗𝚍 𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚃𝚘 𝚜𝚎𝚛𝚟𝚎𝚛**")
 
                 except UserAlreadyParticipant:
                     pass
