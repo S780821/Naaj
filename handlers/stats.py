@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from helpers.decorators import sudo_users_only
-
+from helpers.filters import command
 
 @Client.on_message(command("stats"))
 
