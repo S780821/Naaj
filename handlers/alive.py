@@ -68,19 +68,19 @@ async def alive(client: Client, message: Message):
 
     await message.reply_photo(
 
-        photo=f"https://telegra.ph/file/95e785dea2717adf59de6.png",
+        photo=f"https://telegra.ph/file/1ac4c10d9d31565e2a7d6.mp4",
 
-        caption=f"""**➮𝐳 ʜɪɪ ɪ ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+        caption=f"""**➮ ʜɪɪ ɪ ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-➮ **Zαιԃ Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
+➮ ** Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
 
-➮ **ᴢᴀɪᴅ ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
+➮ ** ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
 
-➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
+➮ **ᴍʏ ᴏᴡɴᴇʀ : [Musics](https://t.me/shubhamMusics)**
 
 ➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
 
-**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝚣𝚊𝚒𝚍 𝙱𝚘𝚝𝚜 ♥️**""",
+**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐  𝙱𝚘𝚝𝚜 ♥️**""",
 
         reply_markup=InlineKeyboardMarkup(
 
@@ -90,13 +90,13 @@ async def alive(client: Client, message: Message):
 
                     InlineKeyboardButton(
 
-                        "💫 ɢʀᴏᴜᴘ", url=f"https://t.me/SUPERIOR_SUPPORT"
+                        "💫 ɢʀᴏᴜᴘ", url=f"https://t.me/chatting_officials"
 
                     ),
 
                     InlineKeyboardButton(
 
-                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/SUPERIOR_BOTS"
+                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/ShubhamMusics"
 
                     )
 
