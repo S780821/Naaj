@@ -29,7 +29,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " 💎Source code ", url="https://github.com/shubham-king/HYPER-MUSIC"
+                        " Term & Condition ", url="https://t.me/ShubhamMusics/63"
                     )]
             ]
         ),
