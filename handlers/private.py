@@ -19,7 +19,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/HyMusic1_bot?startgroup=new")
+                        " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/SwipMusic_bot?startgroup=new")
                   ],[
                     InlineKeyboardButton(
                         "💬 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/ShubhamMusics"
