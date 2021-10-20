@@ -12,7 +12,7 @@ from time import time
 
 from datetime import datetime
 
-from config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from config import BOT_USERNAME, BOT_NAME,
 
 from helpers.filters import command, other_filters
 
