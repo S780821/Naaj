@@ -9,11 +9,8 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**ʜᴇʏ, I'm {bn} 🎵
-
-ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ'ꜱ ᴠᴏɪᴄᴇ ᴄᴀʟʟ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [𝙸𝚝𝚜 𝚖𝚞𝚜𝚒𝚌](https://t.me/ShubhamMusics).
-
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ꜰʀᴇᴇʟʏ!  \n  𝚁𝚞𝚗 𝚘𝚗 𝚘𝚠𝚗 𝚟𝚙𝚜 𝚜𝚎𝚛𝚟𝚎𝚛 𝚝𝚑𝚎 𝚏𝚊𝚜𝚝𝚎𝚜𝚝 𝚜𝚎𝚛𝚟𝚎𝚛!**
+        f"""**ʜᴇʏ, I'm {bn} 🎵 
+        Ꮖ ᎪᎷ ᎪᎠᏙᎪΝᏟᎬᎠ ᎷႮՏᏆᏟ ᏢᏞᎪᎽᎬᎡ ᏴϴͲ ᎡႮΝ ϴΝ ϴᏔΝ ՏᎬᎡᏙᎬᎡ! ᎷϴᎡᎬ ҒᎪՏͲᎬᎡ , Νϴ ᏞᏀ , ᎪᏞᏞ ҒᎡᎬᎬ ᎪΝᎠ ᏆΝᏟᏞႮᎠᎬᎠ ᎷϴᎡᎬ ᏟϴᎷᎷᎪΝᎠՏ ᏆΝ ᏆͲ.**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -43,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎", url="https://github.com/shubham-king/HYPER-MUSIC")
+                        "Channel ", url="https://t.me/shubhamMusics")
                 ]
             ]
         )
