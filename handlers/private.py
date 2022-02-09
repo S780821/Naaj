@@ -19,14 +19,14 @@ async def start(_, message: Message):
                         " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/WarnerMusic2_bot?startgroup=new")
                   ],[
                     InlineKeyboardButton(
-                        "💬 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/ShubhamMusics"
+                        "💬 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/crystalbots"
                     ),
                     InlineKeyboardButton(
                         "👥 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Chatting_officials"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " Term & Condition ", url="https://t.me/ShubhamMusics/63"
+                        " Term & Condition ", url="https://t.me/crystalbots/10"
                     )]
             ]
         ),
