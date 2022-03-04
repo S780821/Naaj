@@ -16,7 +16,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/WarnerMusic2_bot?startgroup=new")
+                        " 𝙰𝚍𝚍 𝙼𝚎 𝚝𝚘 𝙶𝚛𝚘𝚞𝚙 ", url="https://t.me/CrystalMusicRobot?startgroup=new")
                   ],[
                     InlineKeyboardButton(
                         "💬 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/crystalbots"
@@ -26,7 +26,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " Term & Condition ", url="https://t.me/crystalbots/10"
+                        " Term & Condition ", url="https://t.me/crystalbots/14"
                     )]
             ]
         ),
@@ -40,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel ", url="https://t.me/shubhamMusics")
+                        "Channel ", url="https://t.me/crystalbots")
                 ]
             ]
         )
