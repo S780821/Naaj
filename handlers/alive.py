@@ -76,7 +76,7 @@ async def alive(client: Client, message: Message):
 
 ➮ ** ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
 
-➮ **ᴍʏ ᴏᴡɴᴇʀ : [Musics](https://t.me/shubhamMusics)**
+➮ **ᴍʏ ᴏᴡɴᴇʀ : [Musics](https://t.me/crystalbots)**
 
 ➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
 
@@ -96,7 +96,7 @@ async def alive(client: Client, message: Message):
 
                     InlineKeyboardButton(
 
-                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/ShubhamMusics"
+                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/crystalbots"
 
                     )
 
